@@ -65,6 +65,7 @@ p {
     font-size: 16px;
 }
 
+/*main section images float left and right alternatively*/
 .float-left {
     float: left;
     margin-right: 25px;
