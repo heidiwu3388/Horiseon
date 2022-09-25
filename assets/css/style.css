@@ -1,13 +1,16 @@
+/* initialize the styling for all elements */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* initialize the styling for the body */
 body {
     background-color: #d9dcd6;
 }
 
+/* style the header navigation bar */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -41,6 +44,7 @@ header nav ul li {
     margin-left: 25px;
 }
 
+/* style the hero image */
 .hero-image {
     height: 800px;
     width: 100%;
@@ -50,6 +54,7 @@ header nav ul li {
     background-position: center;
 }
 
+/* initialize the styling of the main content */
 main {
     width: 75%;
     display: inline-block;
@@ -65,7 +70,7 @@ p {
     font-size: 16px;
 }
 
-/*main section images float left and right alternatively*/
+/* main section images float left and right alternatively */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -76,6 +81,26 @@ p {
     margin-left: 25px;
 }
 
+/* style the sections in main content */
+main section {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+main section img {
+    max-height: 200px;
+}
+
+main section h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* style the side bar on the right */
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -103,24 +128,7 @@ aside section img {
     max-width: 150px;
 }
 
-main section {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-main section img {
-    max-height: 200px;
-}
-
-main section h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
+/* style the footer */
 footer {
     padding: 30px;
     clear: both;
